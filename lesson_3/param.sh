@@ -1,4 +1,10 @@
 #!/bin/bash
+
+echo $0
+echo $1
+echo $2
+:<< !
+
 echo "整体输出元素:"
 echo $@
 echo $*
@@ -27,3 +33,4 @@ for var in "\"$*\""
 do  
    echo "$var"  
 done 
+!
