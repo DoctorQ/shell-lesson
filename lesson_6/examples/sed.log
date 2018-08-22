@@ -1,9 +1,9 @@
-/Users/doctorq/Documents/dev/apache-maven-3.5.2/bin
-/Users/doctorq/go/bin
-/usr/local/bin
-/usr/bin
-/bin
-/usr/sbin
-/sbin
-/usr/local/go/bin
+-----Users-----doctorq-----Documents-----dev-----apache-maven-3.5.2-----bin
+-----Users-----doctorq-----go-----bin
+-----doctorq-----local-----bin
+-----doctorq-----bin
+-----bin
+-----doctorq-----sbin
+-----sbin
+-----doctorq-----local-----go-----bin
 

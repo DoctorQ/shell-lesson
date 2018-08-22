@@ -1,0 +1,6 @@
+total 16
+-rwxr-xr-x  1 doctorq  staff   396B  6 24 13:37 awk.sh
+drwxr-xr-x  7 doctorq  staff   238B  6 24 14:20 examples
+-rw-r--r--  1 doctorq  staff     0B  6 23 23:06 grep.sh
+-rw-r--r--  1 doctorq  staff     0B  6 24 16:08 log
+-rwxr-xr-x  1 doctorq  staff   158B  6 24 13:54 sed.sh
