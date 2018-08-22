@@ -18,11 +18,13 @@
 - shell的基础语法(2):字符串,输出
 - shell的基础语法(3):流程控制和循环
 - shell的基础语法(4):函数和重定向
-- Linux常用命令:cp/mv/scp/grep/sed/awk
+- Linux常用命令:ls/cp/mv/mkdir/scp/grep/sed/awk
 
 
 ## day 2
 
 6小节课程，梅姐课程45分钟。
 
-- lesson1:
+- Android自动化测试常用命令:
+- iOS自动化测试常用命令:
+- git命令:
