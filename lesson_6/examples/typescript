@@ -1,63 +1,0 @@
-Script started on Sun Jun 24 01:45:02 2018
-[1m[7m%[27m[1m[0m                                                                                ]2;doctorq@localhost: ~/Documents/dev/shell-lesson/lesson_6/examples]1;..on_6/examples[0m[27m[24m[J[01;32m➜  [36mexamples[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hscript -h[?1l>[?2004l
-]2;script -h]1;scriptscript: illegal option -- h
-usage: script [-adkpqr] [-t time] [file [command ...]]
-[1m[7m%[27m[1m[0m                                                                                ]2;doctorq@localhost: ~/Documents/dev/shell-lesson/lesson_6/examples]1;..on_6/examples[0m[27m[24m[J[01;31m➜  [36mexamples[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hmman sci ript[?1l>[?2004l
-]2;man script]1;man[?1049h[?1h=mdoc warning: .Fx: Unknown FreeBSD version `9.2' (#188)
-[m
-SCRIPT(1)                 BSD General Commands Manual                SCRIPT(1)[m
-[m
-[1mNAME[0m[m
-     [1mscript[0m -- make typescript of terminal session[m
-[m
-[1mSYNOPSIS[0m[m
-     [1mscript[0m [[1m-adkpqr[0m] [[1m-F[0m [4mpipe[24m] [[1m-t[0m [4mtime[24m] [[4mfile[24m [[4mcommand[24m [4m...[24m]][m
-[m
-[1mDESCRIPTION[0m[m
-     The [1mscript[0m utility makes a typescript of everything printed on your ter-[m
-     minal.  It is useful for students who need a hardcopy record of an inter-[m
-     active session as proof of an assignment, as the typescript file can be[m
-     printed out later with lpr(1).[m
-[m
-     If the argument [4mfile[24m is given, [1mscript[0m saves all dialogue in [4mfile[24m.  If no[m
-     file name is given, the typescript is saved in the file [4mtypescript[24m.[m
-[m
-     If the argument [4mcommand[24m is given, [1mscript[0m will run the specified command[m
-     with an optional argument vector instead of an interactive shell.[m
-[m
-     The following options are available:[m
-[m
-     [1m-a[0m      Append the output to [4mfile[24m or [4mtypescript[24m, retaining the prior con-[m
-:[K[K             tents.[m
-:[K[K[?1l>[?1049l[1m[7m%[27m[1m[0m                                                                                ]2;doctorq@localhost: ~/Documents/dev/shell-lesson/lesson_6/examples]1;..on_6/examples[0m[27m[24m[J[01;32m➜  [36mexamples[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hman script[10Dscript -h   ll    vi test.txt.bak[15Dll             [13Dsed -i '.bak' -e '' -e '' test.txt[34Dhistory                           [27Dll     rm test.txt.bak[15Dll             [13Dcd examples[11Dll         [9Dvi examples[11Dsed -i '.bak' -e '' -e '' examples/test.txt[43Dll                                         [41Dsed -i '.bak' -e '' -e '' examples/test.txt[?1l>[?2004l
-]2;sed -i '.bak' -e '' -e '' examples/test.txt]1;sedsed: examples/test.txt: No such file or directory
-[1m[7m%[27m[1m[0m                                                                                ]2;doctorq@localhost: ~/Documents/dev/shell-lesson/lesson_6/examples]1;..on_6/examples[0m[27m[24m[J[01;31m➜  [36mexamples[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[7mecho $PATH | awk 'BEGIN{RS=":"}{print $0}' | sed 's#/[7m [7m#----#g'[27m[K[A[18C[27me[27mc[27mh[27mo[27m [27m$[27mP[27mA[27mT[27mH[27m [27m|[27m [27ma[27mw[27mk[27m [27m'[27mB[27mE[27mG[27mI[27mN[27m{[27mR[27mS[27m=[27m"[27m:[27m"[27m}[27m{[27mp[27mr[27mi[27mn[27mt[27m [27m$[27m0[27m}[27m'[27m [27m|[27m [27ms[27me[27md[27m [27m'[27ms[27m#[27m/ [27m#[27m-[27m-[27m-[27m-[27m#[27mg[27m'[?1l>[?2004l
-]2;echo $PATH | awk 'BEGIN{RS=":"}{print $0}' | sed 's#/ #----#g']1;echo/Users/doctorq/Documents/dev/apache-maven-3.5.2/bin
-/Users/doctorq/go/bin
-/Users/doctorq/Documents/dev/apache-maven-3.5.2/bin
-/Users/doctorq/go/bin
-/usr/local/bin
-/usr/bin
-/bin
-/usr/sbin
-/sbin
-/usr/local/go/bin
-
-[1m[7m%[27m[1m[0m                                                                                ]2;doctorq@localhost: ~/Documents/dev/shell-lesson/lesson_6/examples]1;..on_6/examples[0m[27m[24m[J[01;32m➜  [36mexamples[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hecho $PATH | awk 'BEGIN{RS=":"}{print $0}' | sed 's#/ #----#g'[K[A[79Csed 's#/ #-[3C#g' [A[62C[P[9C#-[3C#g' [A[62C[P[10C--[2C#g' [A[62C[P[11C---#g' [A[62C[P[12C--#g' [A[62C[P[13C-#g' [A[62C[P[14C#g' [A[62C[P[15Cg' [A[62C[P[16C' [K[A[62C[P[17C[K[1B[K[A[62C[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18De[P[17C [18D[P[17C [18D[?1l>[?2004l[1B]2;sed 's#/ #----#g']1;sed^C
-[1m[7m%[27m[1m[0m                                                                                ]2;doctorq@localhost: ~/Documents/dev/shell-lesson/lesson_6/examples]1;..on_6/examples[0m[27m[24m[J[01;31m➜  [36mexamples[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hsed 's#/ #----#g' ex  t
-[J[0mtest.txt      [Jtest.txt.bak  [Jtypescript  [J[A[0m[27m[24m[27Csed 's#/ #----#g' t[Kes
-[J[A[48Ct.txt[?1l>[?2004l
-[J]2;sed 's#/ #----#g' test.txt]1;seddoctorq
-1o
-2o
-3o
-4
-
-[1m[7m%[27m[1m[0m                                                                                ]2;doctorq@localhost: ~/Documents/dev/shell-lesson/lesson_6/examples]1;..on_6/examples[0m[27m[24m[J[01;32m➜  [36mexamples[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hsed 's#/ #----#g' test.txt[P[17C [18D[?1l>[?2004l
-]2;sed 's#/#----#g' test.txt]1;seddoctorq
-1o
-2o
-3o
-4
-
-[1m[7m%[27m[1m[0m                                                                                ]2;doctorq@localhost: ~/Documents/dev/shell-lesson/lesson_6/examples]1;..on_6/examples[0m[27m[24m[J[01;32m➜  [36mexamples[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h
